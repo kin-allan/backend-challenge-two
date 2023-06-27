@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add 
+            id="InfoBase_FAQ::faq" 
+            title="FAQ" 
+            module="InfoBase_FAQ" 
+            sortOrder="70" 
+            resource="InfoBase_FAQ::all" />
+        <add 
+            id="InfoBase_FAQ::list" 
+            title="Questions and Answers"  
+            translate="true" 
+            module="InfoBase_FAQ" 
+            sortOrder="10" 
+            resource="InfoBase_FAQ::grid" 
+            action="faq/index/index"
+            parent="InfoBase_FAQ::faq" />
+        <add 
+            id="InfoBase_FAQ::settings" 
+            title="Settings" 
+            translate="true" 
+            module="InfoBase_FAQ" 
+            sortOrder="10" 
+            resource="InfoBase_FAQ::settings" 
+            action="adminhtml/system_config/edit/section/infobase_faq"
+            parent="InfoBase_FAQ::faq" />
+    </menu>
+</config>

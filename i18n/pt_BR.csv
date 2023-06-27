@@ -1,0 +1,41 @@
+"FAQ","FAQ"
+"General","Geral",module,InfoBase_FAQ
+"Enabled?","Habilitado?",module,InfoBase_FAQ
+"Question","Pergunta",module,InfoBase_FAQ
+"Status","Situação",module,InfoBase_FAQ
+"Store View", "Visão de Loja",module,InfoBase_FAQ
+"Answer","Reposta",module,InfoBase_FAQ
+"Created", "Data de Criação",module,InfoBase_FAQ
+"Modified", "Data de Modificação",module,InfoBase_FAQ
+"Add Item", "Adicionar item",module,InfoBase_FAQ
+"Disabled","Desativado",module,InfoBase_FAQ
+"Disable","Desativar",module,InfoBase_FAQ
+"Enabled","Habilitado",module,InfoBase_FAQ
+"Enable","Habilitar",module,InfoBase_FAQ
+"Delete", "Excluir",module,InfoBase_FAQ
+"Disable items","Desabilitar itens",module,InfoBase_FAQ
+"Delete items","Excluir itens",module,InfoBase_FAQ
+"Enable items","Habilitar itens",module,InfoBase_FAQ
+"Are you sure you want to disable selected items?","Você tem certeza que gostaria de desativar os itens selecionados?",module,InfoBase_FAQ
+"Are you sure you want to enable selected items?","Você tem certeza que gostaria de habilitar os itens selecionados?",module,InfoBase_FAQ
+"Are you sure you want to delete selected items?","Você tem certeza que gostaria de excluir os itens selecionados?",module,InfoBase_FAQ
+"Back","Voltar"
+"Delete question","Excluir pergunta",module,InfoBase_FAQ
+"Are you sure you want to do this?","Você tem certeza que deseja executar a ação?",module,InfoBase_FAQ
+"Save","Salvar",module,InfoBase_FAQ
+"A total of %1 record(s) have been deleted.","Total de %1 item(s) foram deletado(s)",module,InfoBase_FAQ
+"A total of %1 record(s) have been disabled.","Total de %1 item(s) foram desativado(s)",module,InfoBase_FAQ
+"A total of %1 record(s) have been enabled.","Total de %1 item(s) foram habilitado(s)",module,InfoBase_FAQ
+"Question deleted","Pergunta excluída",module,InfoBase_FAQ
+"Unable to delete question","Não foi possível excluir a pergunta",module,InfoBase_FAQ
+"Question not found.","Pergunta não encontrada",module,InfoBase_FAQ
+"Something went wrong","Ocorreu um erro inesperado",module,InfoBase_FAQ
+"Question saved","Pergunta salva",module,InfoBase_FAQ
+"Unable to save question","Não foi possível salvar a pergunta",module,InfoBase_FAQ
+"Edit","Alterar",module,InfoBase_FAQ
+"Are you sure you want to delete?","Você tem certeza que deseja excluir?",module,InfoBase_FAQ
+"Frequently Asked Questions", "Perguntas Frequentes",module,InfoBase_FAQ
+"There is no questions available at moment","Não há perguntas no momento",module,InfoBase_FAQ
+"Questions and Answers","Perguntas e Respostas",module,InfoBase_FAQ
+"Settings","Configurações",module,InfoBase_FAQ
+"Action","Ação",module,InfoBase_FAQ

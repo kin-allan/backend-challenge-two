@@ -1,0 +1,15 @@
+<div>
+    <ul class="abs-infobase-faq-container">
+        <each args="getItems()">
+            <li class="abs-faq-item" data-bind="css: { 'abs-visible': expanded() }">
+                <div class="abs-faq-header" click="$parent.expandItem.bind($parent, $data)">
+                    <span text="title"></span>
+                    <i class="abs-arrow"></i>
+                </div>
+                <div class="abs-faq-content">
+                    <span text="answer"></span>
+                </div>
+            </li>
+        </each>
+    </ul>
+</div>

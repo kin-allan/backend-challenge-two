@@ -1,0 +1,27 @@
+<?php /** @var InfoBase\FAQ\Block\Faq\FaqList $block */ ?>
+<?php if ($block->canRender()): ?>
+    <h1><?= __('Frequently Asked Questions'); ?></h1>
+    <?php if ($block->getSize() > 0): ?>
+        <div id="infobase-faq-list" data-bind="scope: 'infobase-faq-list'">
+            <!-- ko template: getTemplate() --><!-- /ko -->
+        </div>
+        <script type="text/x-magento-init">
+            {
+                "#infobase-faq-list": {
+                    "Magento_Ui/js/core/app": {
+                        "components": {
+                            "infobase-faq-list": {
+                                "component": "InfoBase_FAQ/js/faq",
+                                "config": {
+                                    "items": <?= /** @noEscape */ $block->getJsonList() ?>
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        </script>
+    <?php else: ?>
+        <p><?= __('There is no questions available at moment'); ?></p>
+    <?php endif; ?>
+<?php endif; ?>

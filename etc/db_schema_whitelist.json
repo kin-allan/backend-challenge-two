@@ -1,0 +1,34 @@
+{
+    "infobase_faq": {
+        "column": {
+            "entity_id": true,
+            "store_id": true,
+            "question": true,
+            "answer": true,
+            "created_at": true,
+            "updated_at": true,
+            "status": true
+        },
+        "index": {
+            "INFOBASE_FAQ_STORE_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "INFOBASE_FAQ_STORE_ID_STORE_STORE_ID": true
+        }
+    },
+    "infobase_faq_store": {
+        "column": {
+            "faq_id": true,
+            "store_id": true
+        },
+        "index": {
+            "INFOBASE_FAQ_STORE_STORE_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "INFOBASE_FAQ_STORE_FAQ_ID_INFOBASE_FAQ_ENTITY_ID": true,
+            "INFOBASE_FAQ_STORE_STORE_ID_STORE_STORE_ID": true
+        }
+    }
+}

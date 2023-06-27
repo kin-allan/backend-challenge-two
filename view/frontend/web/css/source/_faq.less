@@ -1,0 +1,60 @@
+& when (@media-common = true) {
+    .abs-infobase-faq-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        width: 100%;
+        margin: 40px 0;
+        padding: 0;
+        list-style: none;
+        .abs-faq-item {
+            width: 100%;
+            margin: 0;
+            margin-top: -1px;
+            border: 1px solid #70aae0;
+            box-sizing: border-box;
+            .abs-faq-header {
+                position: relative;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                align-items: center;
+                padding: 8px 10px;
+                width: 100%;
+                user-select: none;
+                font-size: 18px;
+                font-weight: 400;
+                color: #3785ff;
+                box-sizing: border-box;
+                cursor: pointer;
+                .abs-arrow {
+                    border: solid #70aae0;
+                    border-width: 0 4px 4px 0;
+                    display: inline-block;
+                    padding: 4px;
+                    margin-right: 10px;
+                    transform: rotate(45deg);
+                }
+            }
+            .abs-faq-content {
+                display: none;
+                font-size: 16px;
+                line-height: 24px;
+                padding: 30px 20px;
+                border-top: 1px solid #FFF7F7;
+                box-sizing: border-box;
+            }
+            &.abs-visible {
+                .abs-faq-header {
+                    .abs-arrow {
+                        transform: rotate(-135deg);
+                    }
+                }
+                .abs-faq-content {
+                    display: block;
+                }
+            }
+        }
+    }
+}
